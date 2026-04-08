@@ -1,3 +1,17 @@
 #parrafo{
-    
+    color: red; /*color del parrafo*/
+    font-family: 'Times New Roman', Times, serif;/*el formato de texto*/
+    font-weight: bold;/*Negrita*/
+    font-style: italic;/*el esiloen este caso italica*/
+    text-align: justify;/*alinea el texto donde le digas en este caso lo justifica*/
+    line-height: 3;/*es el espaciado de alto*/
+    letter-spacing: 10px;/*espaciado de letras*/
+
+    /*lowercase,uppercase,none,capitalize*/
+    text-transform: uppercase;/*transforma el texto en lo que le digamos en este caso en mayuscula*/
+}
+a{
+    /*quita la decoracion del texto*/
+    text-decoration: none;
+    text-decoration: line-through;/*lo tacha*/
 }
