@@ -4,14 +4,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #f4f4f4;
+      /* Mínimo, todo el alto de la vista (viewport) */
+
 }
 /* ENCABEZADO */
 header {
-    background-color: #007bff;
+    background-color: black;
     color: white;
     padding: 15px;
     text-align: center;
 }
+
 
 
 /* MENÚ */
@@ -27,9 +30,8 @@ nav ul li {
 
 /* LINKS GENERALES */
 a {
-    color: #007bff; /* ← CAMBIO IMPORTANTE */
+    color: black; /* ← CAMBIO IMPORTANTE */
     text-decoration: none;
-    font-weight: bold;
 }
 
 /* LINKS DEL HEADER */
@@ -41,17 +43,67 @@ footer a {
 a:hover {
     color: #00c3ff;
 }
-.contenedor-principal{
-    max-width: 80%;
-    display: flex;
+
+#datos-desarrollador{
+    background-color: black;
+    max-width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    color: white;
+    border-radius: 30px;
+
+}
+.contenedor-principal{
+    max-width: 75%;
+    display: flex;
     flex-wrap: wrap; 
-    
     justify-content: center; 
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-
+form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column; /* Alinea uno debajo del otro */
+  align-items: flex-start; /* O flex-end, center, stretch */
+}
+label {
+  display: inline-block;
+  width: 100px; /* Ancho fijo para alinear el inicio del input */
+  text-align: right; /* Alinea el texto de la etiqueta a la derecha */
+  margin-right: 10px;
+}
+input{
+    display: inline-block;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.datos-subtitulo{
+    color: white;
+}
+.content-wrapper{
+    display: flex;
+}
 .tarjeta {
     background-color: white;
     width: 350px;
@@ -74,15 +126,19 @@ a:hover {
     width: 100px;
     height: 100px;
     display: block;
-    background-color: #007bff;
+    background-color: black;
     border-radius: 50%; 
     margin: 0 auto 1rem;
 }
 
 h2 {
-    color: #007bff;
+    display: flex;
+    color: black;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
 }
 
 .subtitulo {
@@ -102,7 +158,7 @@ h2 {
 
 .tag {
     background-color: #e7f3ff;
-    color: #007bff;
+    color: black;
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 0.75rem;
@@ -110,7 +166,7 @@ h2 {
 
 .btn-contacto {
     margin-top: 2rem;
-    background-color: #007bff;
+    background-color: black;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -124,9 +180,25 @@ h2 {
 }
 
 footer{
-    background-color: #007bff;
+    background-color: black;
     color: white;
     padding: 15px;
     text-align: center;
     margin-top: 30px;
+}
+
+img{
+    width: 100%;
+    height: 100%
+}
+
+#m-link{
+    color: white;
+}
+#m-link:hover{
+    color: #0056b3;
+}
+
+p{
+    text-align: justify;
 }
