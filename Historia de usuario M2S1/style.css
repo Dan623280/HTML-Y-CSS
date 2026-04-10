@@ -1,0 +1,262 @@
+/* Reset general: elimina márgenes y padding por defecto del navegador */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales del body */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    margin: 0;
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+/* ================= ENCABEZADO ================= */
+header {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Centra el contenido */
+}
+
+/* Secciones dentro del aside */
+.section-aside{
+    width: 100%; /* Ocupa todo el ancho */
+    height: 30%; /* Altura relativa */
+    box-sizing: border-box; /* Incluye padding en el tamaño */
+}
+
+/* ================= LINKS GENERALES ================= */
+a {
+    color: black; /* Color por defecto de enlaces */
+    text-decoration: none; /* Quita subrayado */
+}
+
+/* Links dentro del footer */
+footer a {
+    color: white; /* Color blanco */
+}
+
+/* Efecto hover para enlaces */
+a:hover {
+    color: #00c3ff; /* Cambia color al pasar el mouse */
+}
+
+/* ================= ASIDE (DATOS DEL DESARROLLADOR) ================= */
+#datos-desarrollador{
+    background-color: black; /* Fondo negro */
+    max-width: 30%; /* Ancho máximo */
+    max-height: 1000px; /* Altura máxima */
+    margin: 20px; /* Margen externo */
+    padding: 20px; /* Espaciado interno */
+    color: white; /* Texto blanco */
+    border-radius: 20px; /* Bordes redondeados */
+    box-sizing: border-box;
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Elementos en columna */
+    gap: 25px; /* Espacio entre elementos */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3); /* Sombra */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ================= CONTENEDOR PRINCIPAL ================= */
+.contenedor-principal{
+    max-width: 800px; /* Ancho máximo */
+    display: flex; /* Flexbox */
+    flex-wrap: wrap; /* Permite salto de línea */
+    justify-content: center; /* Centra contenido */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ================= FORMULARIO ================= */
+form{
+    display: block;
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Inputs y textarea */
+input, textarea{
+    display: block;
+    width: 100%; /* Ancho completo */
+    padding: 5px;
+    border-radius: 10%;
+    background-color: transparent; /* Fondo transparente */
+    outline: none; /* Quita borde al seleccionar */
+    border-bottom: white solid 3px; /* Línea inferior */
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-size: 14px;
+    color: white; /* Texto blanco */
+    margin-bottom: 10px;
+}
+
+/* Textarea específico */
+textarea{
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+/* Botón */
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* ================= LAYOUT GENERAL ================= */
+.content-wrapper{
+    display: flex; /* Distribuye aside + main */
+}
+
+/* ================= TARJETAS ================= */
+.tarjeta {
+    background-color: white;
+    width: 300px;
+    max-height: 400px;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease; /* Animación */
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Efecto hover en tarjetas */
+.tarjeta:hover {
+    transform: translateY(-10px); /* Se eleva */
+}
+
+/* Imagen de perfil (contenedor circular) */
+.foto-perfil {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: black;
+    border-radius: 50%; /* Forma circular */
+    margin: 0 auto 1rem; /* Centrado */
+}
+
+/* Títulos h2 */
+h2 {
+    display: flex;
+    color: black;
+    font-size: 1.5rem;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Subtítulos */
+.subtitulo {
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+/* Contenedor de habilidades */
+.habilidades {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+/* Etiquetas (tags) */
+.tag {
+    background-color: #e7f3ff;
+    color: black;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
+
+/* Botón de contacto */
+.btn-contacto {
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Estado activo del botón */
+.btn-contacto:active {
+    background-color: #0056b3;
+}
+
+/* Imágenes */
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Link específico del menú */
+#m-link{
+    color: white;
+}
+
+#m-link:hover{
+    color: #0056b3;
+}
+
+/* Párrafos */
+p{
+    text-align: justify;
+}
+
+/* ================= FOOTER ================= */
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Listas generales */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+/* Listas dentro del footer */
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+/* Subtítulos del aside */
+.datos-subtitulo{
+    color: white;
+}
+
+/* Link de mascotas */
+.link-m{
+    color: grey;
+}
