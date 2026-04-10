@@ -1,146 +1,165 @@
-
-
-body {
-    font-family: Arial, sans-serif;
+/* Reset general: elimina márgenes y padding por defecto del navegador */
+*{
     margin: 0;
-    background-color: #f4f4f4;
-      /* Mínimo, todo el alto de la vista (viewport) */
-
-}
-/* ENCABEZADO */
-header {
-    background-color: black;
-    color: white;
-    padding: 15px;
-    text-align: center;
-}
-
-
-
-/* MENÚ */
-nav ul {
-    list-style: none;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 10px;
+/* Estilos generales del body */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    margin: 0;
+    background-color: #f4f4f4; /* Color de fondo */
 }
 
-/* LINKS GENERALES */
+/* ================= ENCABEZADO ================= */
+header {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Centra el contenido */
+}
+
+/* Secciones dentro del aside */
+.section-aside{
+    width: 100%; /* Ocupa todo el ancho */
+    height: 30%; /* Altura relativa */
+    box-sizing: border-box; /* Incluye padding en el tamaño */
+}
+
+/* ================= LINKS GENERALES ================= */
 a {
-    color: black; /* ← CAMBIO IMPORTANTE */
-    text-decoration: none;
+    color: black; /* Color por defecto de enlaces */
+    text-decoration: none; /* Quita subrayado */
 }
 
-/* LINKS DEL HEADER */
+/* Links dentro del footer */
 footer a {
-    color: white;
+    color: white; /* Color blanco */
 }
 
-/* EFECTO HOVER */
+/* Efecto hover para enlaces */
 a:hover {
-    color: #00c3ff;
+    color: #00c3ff; /* Cambia color al pasar el mouse */
 }
 
+/* ================= ASIDE (DATOS DEL DESARROLLADOR) ================= */
 #datos-desarrollador{
-    background-color: black;
-    max-width: 20%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 30px;
-    color: white;
-    border-radius: 30px;
-
+    background-color: black; /* Fondo negro */
+    max-width: 30%; /* Ancho máximo */
+    max-height: 1000px; /* Altura máxima */
+    margin: 20px; /* Margen externo */
+    padding: 20px; /* Espaciado interno */
+    color: white; /* Texto blanco */
+    border-radius: 20px; /* Bordes redondeados */
+    box-sizing: border-box;
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Elementos en columna */
+    gap: 25px; /* Espacio entre elementos */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3); /* Sombra */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+/* ================= CONTENEDOR PRINCIPAL ================= */
 .contenedor-principal{
-    max-width: 75%;
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
-    margin-top: auto;
+    max-width: 75%; /* Ancho máximo */
+    display: flex; /* Flexbox */
+    flex-wrap: wrap; /* Permite salto de línea */
+    justify-content: center; /* Centra contenido */
     margin-left: auto;
     margin-right: auto;
-    
 }
 
+/* ================= FORMULARIO ================= */
 form{
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
+    display: block;
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 20px;
+    box-sizing: border-box;
 }
-.form-container {
-  display: flex;
-  flex-direction: column; /* Alinea uno debajo del otro */
-  align-items: flex-start; /* O flex-end, center, stretch */
+
+/* Inputs y textarea */
+input, textarea{
+    display: block;
+    width: 100%; /* Ancho completo */
+    padding: 5px;
+    border-radius: 10%;
+    background-color: transparent; /* Fondo transparente */
+    outline: none; /* Quita borde al seleccionar */
+    border-bottom: white solid 3px; /* Línea inferior */
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-size: 14px;
+    color: white; /* Texto blanco */
+    margin-bottom: 10px;
 }
-label {
-  display: inline-block;
-  width: 100px; /* Ancho fijo para alinear el inicio del input */
-  text-align: right; /* Alinea el texto de la etiqueta a la derecha */
-  margin-right: 10px;
+
+/* Textarea específico */
+textarea{
+    height: 50px;
+    margin-bottom: 30px;
 }
-input{
-    display: inline-block;
-}
+
+/* Botón */
 button{
     display: block;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 50px;
     width: 100px;
     height: 30px;
     background-color: white;
     border-radius: 30px;
     font-size: 15px;
+    box-sizing: border-box;
 }
-.datos-subtitulo{
-    color: white;
-}
+
+/* ================= LAYOUT GENERAL ================= */
 .content-wrapper{
-    display: flex;
+    display: flex; /* Distribuye aside + main */
 }
+
+/* ================= TARJETAS ================= */
 .tarjeta {
     background-color: white;
-    width: 350px;
+    width: 300px;
+    max-height: 400px;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Animación */
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-
+/* Efecto hover en tarjetas */
 .tarjeta:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px); /* Se eleva */
 }
 
+/* Imagen de perfil (contenedor circular) */
 .foto-perfil {
     width: 100px;
     height: 100px;
     display: block;
     background-color: black;
-    border-radius: 50%; 
-    margin: 0 auto 1rem;
+    border-radius: 50%; /* Forma circular */
+    margin: 0 auto 1rem; /* Centrado */
 }
 
+/* Títulos h2 */
 h2 {
     display: flex;
     color: black;
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    height: 120px;
+    height: 80px;
     justify-content: center;
     align-items: center;
 }
 
+/* Subtítulos */
 .subtitulo {
     color: #666;
     font-weight: bold;
@@ -149,6 +168,7 @@ h2 {
     letter-spacing: 1px;
 }
 
+/* Contenedor de habilidades */
 .habilidades {
     display: flex;
     gap: 10px;
@@ -156,6 +176,7 @@ h2 {
     margin-top: 1.5rem;
 }
 
+/* Etiquetas (tags) */
 .tag {
     background-color: #e7f3ff;
     color: black;
@@ -164,6 +185,7 @@ h2 {
     font-size: 0.75rem;
 }
 
+/* Botón de contacto */
 .btn-contacto {
     margin-top: 2rem;
     background-color: black;
@@ -175,30 +197,66 @@ h2 {
     width: 100%;
 }
 
+/* Estado activo del botón */
 .btn-contacto:active {
     background-color: #0056b3;
 }
 
-footer{
-    background-color: black;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    margin-top: 30px;
-}
-
+/* Imágenes */
 img{
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
+/* Link específico del menú */
 #m-link{
     color: white;
 }
+
 #m-link:hover{
     color: #0056b3;
 }
 
+/* Párrafos */
 p{
     text-align: justify;
+}
+
+/* ================= FOOTER ================= */
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Listas generales */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+/* Listas dentro del footer */
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+/* Subtítulos del aside */
+.datos-subtitulo{
+    color: white;
+}
+
+/* Link de mascotas */
+.link-m{
+    color: grey;
 }
