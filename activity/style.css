@@ -62,7 +62,7 @@ a:hover {
 
 /* ================= CONTENEDOR PRINCIPAL ================= */
 .contenedor-principal{
-    max-width: 75%; /* Ancho máximo */
+    max-width: 800px; /* Ancho máximo */
     display: flex; /* Flexbox */
     flex-wrap: wrap; /* Permite salto de línea */
     justify-content: center; /* Centra contenido */

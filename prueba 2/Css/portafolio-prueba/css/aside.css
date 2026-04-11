@@ -1,0 +1,74 @@
+
+/*aside*/
+
+#aside{
+    background-color: white;
+    width: 15%;
+    padding-top: 30px;
+}
+
+
+
+/* contenedor imagen principal*/
+.div-imagen{
+    width: 200px;
+    height: 200px;
+    overflow: hidden; /* Evita desbordamientos */
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* imagen que esta adentro del contenedor */
+
+.imagen-principal{
+    width: 100%;
+    height: 100%;
+}
+
+/*Nombre del Desarrollador*/
+
+#nombre-aside{
+ 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 250px;
+}
+
+#descrip-aside{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 250px;
+}
+.iconos{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    overflow: hidden; /* Evita desbordamientos */
+    display: flex;
+   
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linea-aside{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
