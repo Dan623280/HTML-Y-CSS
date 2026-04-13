@@ -13,17 +13,19 @@
     
     <main>
 
+        <!-- Section 1 -->
         <section class="main-section main-section-1">
-            <article>
+            <article class="d-principalsection">
                 <h1>I'm Daniel Elias Alvarez Diaz <span>Front-end</span> Developer</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur voluptatem aliquid, atque possimus necessitatibus, sit odio recusandae veniam sint sapiente quis architecto eveniet debitis. Ipsum unde maiores nisi officiis?</p>
                 <button>HIRE ME</button>
             </article>
-            <div class="img-principal-main">
-
-            </div>
+            
+            <img class="imagen-principal-section" src = "img/user.jpeg" alt="">
         </section>
 
+        <!-- Section 2 -->
+         
         <section class="main-section main-section-2">
 
             <h2 class="Titulo-section-2">My services</h2>

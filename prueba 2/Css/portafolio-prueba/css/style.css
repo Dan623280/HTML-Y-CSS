@@ -11,12 +11,48 @@ body{
 }
 
 main{
-    background-color: red;
     width: 80%;
+    padding: 0 3%;
+}
+
+.main-section{
+    margin-bottom: 30px;
+    
+}
+
+/* section-1 */
+.d-principalsection{
+    width: 50%;
+    margin: auto;
+}
+.d-principalsection p, h1{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.d-principalsection h1 span{
+    color: red;
+}
+.d-principalsection button{
+    width: 200px;
+    padding: 5px 0;
+    background-color: black;
+    color: white;
+}
+
+.main-section-1{
+    display: flex;
+    background-color: white;
+}
+
+.imagen-principal-section{
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
 }
 
 header{
     background-color: blue;
     width: 50px;
 }
+
 
