@@ -27,12 +27,24 @@
 
         <div class="iconos">
 
-            <img class= "icon" src="img/iconos/facebook.png" alt="">
-            <img class= "icon" src="img/iconos/globe.png" alt="">
-            <img class= "icon" src="img/iconos/instagram.png" alt="">
-            <img class= "icon" src="img/iconos/linkedin.png" alt="">
-            <img class= "icon" src="img/iconos/twitter.png" alt="">
-            <img class= "icon" src="img/iconos/youtube.png" alt="">
+            <a class="link-icon" href="https://www.facebook.com/?locale=es_LA">
+                <img class= "icon" src="img/iconos/facebook.png" alt="">
+            </a>
+            <a class="link-icon" href="https://www.facebook.com/?locale=es_LA">
+                <img class= "icon" src="img/iconos/globe.png" alt="">
+            </a>
+            <a class="link-icon" href="https://www.facebook.com/?locale=es_LA">
+                <img class= "icon" src="img/iconos/instagram.png" alt="">
+            </a>
+            <a class="link-icon" href="https://www.facebook.com/?locale=es_LA">
+                <img class= "icon" src="img/iconos/linkedin.png" alt="">
+            </a>
+            <a class="link-icon" href="https://www.facebook.com/?locale=es_LA">
+                <img class= "icon" src="img/iconos/twitter.png" alt="">
+            </a>
+            <a class="link-icon" href="https://www.facebook.com/?locale=es_LA">
+                <img class= "icon" src="img/iconos/youtube.png" alt="">
+            </a>
             
         </div>
 
@@ -45,31 +57,33 @@
 
         <div class="date-1-individual">
 
-            <p>Age</p>
+            <p class="resalto">Age: </p>
             <p>24</p>
 
         </div>
 
         <div class="date-1-individual">
 
-            <p>Age</p>
-            <p>24</p>
+            <p class="resalto">Residence: </p>
+            <p>BD</p>
 
         </div>
 
         <div class="date-1-individual">
 
-            <p>Age</p>
-            <p>24</p>
+            <p class="resalto">Freelance: <p>
+            <p>Available</p>
 
         </div>
 
         <div class="date-1-individual">
 
-            <p>Age</p>
-            <p>24</p>
+            <p class="resalto">Address: </p>
+            <p>Barranquilla</p>
 
         </div>
+
+
     </section>
 
     <hr class = "linea-aside">
@@ -82,12 +96,17 @@
 
         <div class="Lenguages">
 
-            <p>Bangla</p>
-            <p>100%</p>
+            <div class="date-1-individual">
+
+                <p>Bangla</p>
+                <p>100%</p>
+
+            </div>
+            
 
             <div class= "barra">
 
-                <div class="relleno">
+                <div class="relleno relleno-1">
 
                 </div>
 
@@ -97,12 +116,17 @@
 
         <div class="Lenguages">
 
-            <p>English</p>
-            <p>80%</p>
+            <div class="date-1-individual">
+
+                <p>Spanish</p>
+                <p>80%</p>
+
+            </div>
+            
 
             <div class= "barra">
 
-                <div class="relleno">
+                <div class="relleno relleno-2">
 
                 </div>
 
@@ -110,14 +134,19 @@
 
         </div>
 
-        <div class="Spanish">
+        <div class="Lenguages">
 
-            <p>English</p>
-            <p>60%</p>
+            <div class="date-1-individual">
+
+                <p>English</p>
+                <p>60%</p>
+
+            </div>
+            
 
             <div class= "barra">
 
-                <div class="relleno">
+                <div class="relleno relleno-3">
 
                 </div>
 
@@ -136,12 +165,18 @@
 
         <div class="Lenguages">
 
-            <p>Html</p>
-            <p>90%</p>
+            <div class="date-1-individual">
+
+                <p>Html</p>
+                <p>90%</p>
+
+            </div>
+            
+            
 
             <div class= "barra">
 
-                <div class="relleno">
+                <div class="relleno relleno-4" >
 
                 </div>
 
@@ -151,12 +186,18 @@
 
         <div class="Lenguages">
 
-            <p>Css</p>
-            <p>85%</p>
+            <div class="date-1-individual">
+
+                <p>Css</p>
+                <p>85%</p>
+
+            </div>
+            
+            
 
             <div class= "barra">
 
-                <div class="relleno">
+                <div class="relleno relleno-5">
 
                 </div>
 
@@ -166,12 +207,18 @@
 
         <div class="Lenguages">
 
-            <p>Js</p>
-            <p>80%</p>
+
+            <div class="date-1-individual">
+
+                <p>Js</p>
+                <p>80%</p>
+
+            </div>
+            
 
             <div class= "barra">
 
-                <div class="relleno">
+                <div class="relleno relleno-6">
 
                 </div>
 
@@ -181,12 +228,17 @@
 
         <div class="Lenguages">
 
-            <p>PHP</p>
-            <p>75%</p>
+            <div class="date-1-individual">
 
+                <p>PHP</p>
+                <p>75%</p>
+
+
+            </div>
+            
             <div class= "barra">
 
-                <div class="relleno">
+                <div class="relleno relleno-7">
 
                 </div>
 
@@ -196,12 +248,18 @@
 
         <div class="Lenguages">
 
-            <p>Wordpress</p>
-            <p>85%</p>
+
+            <div class="date-1-individual">
+
+                <p>Wordpress</p>
+                <p>85%</p>
+
+            </div>
+            
 
             <div class= "barra">
 
-                <div class="relleno">
+                <div class="relleno relleno-8">
 
                 </div>
 
@@ -218,89 +276,60 @@
 
         <h2 class="titulo-seccion">Extra Skills</h2>
 
-        <div class="Lenguages">
+        
+        <div class="date-1-individual">
 
-            <div id="icono-">
+
+            <div class="div-icono-opcion">
+                <img  class= "icono-opcion"src="img/iconos/opcion.png" alt="">
             </div>
+                
+            
             <p>Boostrap, Materialize</p>
 
-            <div class= "barra">
-
-                <div class="relleno">
-
-                </div>
-
-            </div>
         </div>
 
-        <div class="Lenguages">
+        <div class="date-1-individual">
 
-            <div id="icono-">
+
+            <div class="div-icono-opcion">
+                <img  class= "icono-opcion"src="img/iconos/opcion.png" alt="">
             </div>
+                
+            
             <p>Stylus, Sass, Less</p>
 
-            <div class= "barra">
-
-                <div class="relleno">
-
-                </div>
-
-            </div>
         </div>
+        
+        <div class="date-1-individual">
 
-        <div class="Lenguages">
 
-            <div id="icono-">
+            <div class="div-icono-opcion">
+                <img  class= "icono-opcion"src="img/iconos/opcion.png" alt="">
+            </div>
                 
-            </div>
-            <p>Stylus, Sass, Less</p>
-
-            <div class= "barra">
-
-                <div class="relleno">
-
-                </div>
-
-            </div>
-        </div>
-
-        <div class="Lenguages">
-
-            <div id="icono-">
-                
-            </div>
-
+            
             <p>Gulp, Webpack, Grunt</p>
 
-            <div class= "barra">
-
-                <div class="relleno">
-
-                </div>
-
-            </div>
         </div>
 
-        <div class="Lenguages">
+        <div class="date-1-individual">
 
-            <div id="icono-">
-                
+
+            <div class="div-icono-opcion">
+                <img  class= "icono-opcion"src="img/iconos/opcion.png" alt="">
             </div>
+                
             
             <p>Git Knowledge</p>
 
-            <div class= "barra">
-
-                <div class="relleno">
-
-                </div>
-
-            </div>
         </div>
+
     </section>
 
     <hr>
 
+    <button id="Download">DOWNLOAD CV</button>
     
 </aside>
 </body>
