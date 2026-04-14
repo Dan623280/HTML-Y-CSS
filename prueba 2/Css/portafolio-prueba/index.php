@@ -14,7 +14,7 @@
     <main>
 
         <!-- Section 1 -->
-        <section class="main-section main-section-1">
+        <section class="main-section-1">
             <article class="d-principalsection">
                 <h1>I'm Daniel Elias Alvarez Diaz <span>Front-end</span> Developer</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur voluptatem aliquid, atque possimus necessitatibus, sit odio recusandae veniam sint sapiente quis architecto eveniet debitis. Ipsum unde maiores nisi officiis?</p>
@@ -26,44 +26,50 @@
 
         <!-- Section 2 -->
          
-        <section class="main-section main-section-2">
+        <section class="main-section">
 
-            <h2 class="Titulo-section-2">My services</h2>
-            <p class="Descripcion-section-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            <div class="Primera-parte-section">
 
-            <div class="contenedores-section-2">
-                <div class="contenedor-section-2">
-                    <img class="icon-section-2" src="" alt="">
+                <h2 class="Titulo-section">My services</h2>
+                <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+
+
+            </div>
+
+            
+            <div class="contenedores-section">
+                
+                <div class="contenedor-section">
+                    <img class="img-section-2" src="img/my-services/development.png"  alt="img">
                     <h3 class="subtitulo-section-2">web development</h3>
                     <p class="parrafo-subtitulo-section-2">blog, e-commerce</p>
                 </div>
 
-                <div class="contenedor-section-2">
-                    <img class="icon-section-2" src="" alt="">
+                <div class="contenedor-section">
+                    <img class="img-section-2" src="img/my-services/monitor.png"  alt="">
                     <h3 class="subtitulo-section-2">uI/uX design</h3>
                     <p class="parrafo-subtitulo-section-2">Mobile app, website design</p>
                 </div>
 
-                <div class="contenedor-section-2">
-                    <img class="icon-section-2" src="" alt="">
+                <div class="contenedor-section">
+                    <img class="img-section-2" src="img/my-services/onda-sonora.png"  alt="">
                     <h3 class="subtitulo-section-2">sound design</h3>
                     <p class="parrafo-subtitulo-section-2">Voice Over, Beat Making</p>
                 </div>
 
-                <div class="contenedor-section-2">
-                    <img class="icon-section-2" src="" alt="">
+                <div class="contenedor-section">
+                    <img class="img-section-2" src="img/my-services/consola.png"  alt="">
                     <h3 class="subtitulo-section-2">game design</h3>
                     <p class="parrafo-subtitulo-section-2">Character Design, Props & Objects</p>
                 </div>
 
-                <div class="contenedor-section-2">
-                    <img class="icon-section-2" src="" alt="">
+                <div class="contenedor-section">
+                    <img class="img-section-2" src="img/my-services/photo.png"  alt="">
                     <h3 class="subtitulo-section-2">photography</h3>
                     <p class="parrafo-subtitulo-section-2">portrait, product photography</p>
                 </div>
 
-                <div class="contenedor-section-2">
-                    
+                <div class="contenedor-section">
                     <h3 class="subtitulo-section-2">advertising</h3>
                     <p class="parrafo-subtitulo-section-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. </p>
                     <a href=""class="Link-contenedor-2">ORDER NOW ></a>
@@ -72,14 +78,22 @@
 
         </section>
 
-        <section class="main-section main-section-3">
+        <!-- section 3 -->
 
-            <h2 class="Titulo-section-3">Price plans</h2>
-            <p class="Descripcion-section-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+        <section class="main-section">
 
-            <div class="contenedores-section-3">
+            <div class="Primera-parte-section">
 
-                <div class="contenedor-section-3">
+            
+                <h2 class="Titulo-section">Price plans</h2>
+                <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+
+
+            </div>
+            
+            <div class="contenedores-section">
+
+                <div class="contenedor-section">
                     <h3 class="subtitulo-section-3">silver</h3>
                     <p class="precio">$0.00 <span>/hour</span></p>
                     <p class="parrafo-subtitulo-section-3">For most businesses that want to optimize web queries
@@ -98,7 +112,7 @@
                     <button class="button-s-3">ORDER NOW</button>
                 </div>
 
-                <div class="contenedor-section-3">
+                <div class="contenedor-section">
                     <p class="F-amarillo"></p>
                     <h3 class="subtitulo-section-3">Gold</h3>
                     <p class="precio">$50.00 <span>/hour</span></p>
@@ -118,7 +132,7 @@
                     <button class="button-s-3 F-a">ORDER NOW</button>
                 </div>
 
-                <div class="contenedor-section-3">
+                <div class="contenedor-section">
                     <h3 class="subtitulo-section-3">Dimond</h3>
                     <p class="precio">$80.00 <span>/hour</span></p>
                     <p class="parrafo-subtitulo-section-3">For most businesses that want to optimize web queries
@@ -221,8 +235,8 @@
 
         <section class="main-section main-section-5">
 
-            <h2 class="Titulo-section-5">Education</h2>
-            <p class="Descripcion-section-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            <h2 class="Titulo-section">Education</h2>
+            <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
 
             <div class="contenedores-section-5">
 
@@ -276,8 +290,8 @@
         
         <section class="main-section main-section-6">
 
-            <h2 class="Titulo-section-6">Work History</h2>
-            <p class="Descripcion-section-6">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            <h2 class="Titulo-section">Work History</h2>
+            <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
 
             <div class="contenedores-section-6">
 
@@ -331,8 +345,8 @@
 
         <section class="main-section main-section-7">
 
-            <h2 class="Titulo-section-7">Portafolio</h2>
-            <p class="Descripcion-section-7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            <h2 class="Titulo-section">Portafolio</h2>
+            <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
 
             <ul>
                 <li>All categories</li>
@@ -357,9 +371,9 @@
 
         <section class="main-section main-section-8">
 
-            <h2 class="Titulo-section-8">Blog</h2>
+            <h2 class="Titulo-section">Blog</h2>
 
-            <p class="Descripcion-section-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
 
             <div class="contenedores-section-8">
                 <div>
@@ -507,7 +521,7 @@
 
         </section>
 
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125335.0019778219!2d-74.90037688026703!3d10.984584016217736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d44d12ae605%3A0x2633844581b917b2!2sBarranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1776117644811!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <section class="footer">
             <p>2021 All Rights Reserved.Ojjomedia</p>
         </section>
