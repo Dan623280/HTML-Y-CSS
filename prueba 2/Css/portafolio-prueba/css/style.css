@@ -74,7 +74,7 @@ header{
     margin-bottom: 15%;
 }
 .Primera-parte-section{
-    width: 30%;
+    width: 40%;
     
 }
 
@@ -88,9 +88,9 @@ header{
 
 }
 
-.contenedor-section{
+.contenedor-section {
     background-color: white;
-    width: 25%;
+    width: 30%;
     padding: 50px 30px;
     box-sizing: border-box;
     display: flex;
@@ -109,19 +109,76 @@ header{
     text-decoration: none;
 }
 
-.contenedores-section-3{
-    width: 100%;
+
+
+ul{
+    text-align: left;
+    width: 90%;
     display: flex;
-    justify-content: space-between;  
-    align-items: center; 
+    flex-direction: column;
+    gap: 15px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.chulo::before{
+    content: "";
+    display: inline-block;
+    width: 16px;     /* 👈 necesario */
+    height: 16px; 
+    background-image: url("../img/iconos/chulo.png");
+    background-size: cover;
+    margin-right: 8px;
+    
+}
+.chulo{
+    font-weight: bold;
+}
+.cruz::before{
+    content: "";
+    display: inline-block;
+    width: 16px;     /* 👈 necesario */
+    height: 16px; 
+    background-image: url("../img/iconos/cruz.png");
+    background-size: cover;
+    margin-right: 8px;
 }
 
 .contenedor-section-3{
-    width: 30%;
-    background-color: white;
-
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.F-amarillo{
+    display: flex;
+    height: 30PX;
+    width: calc(100% + 60px); /* 30px + 30px del padding */
+    margin-left: -30px;
+    margin-right: -30px;
+    background-color: blaCK;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-ul{
-    list-style-type: none;
+.button-s-3{
+    color: black;
+    background-color: white;
+    text-align: center;
+    border: 0px solid black;
+    margin-top: 5%;
+    width: 70%;
+    padding: 3% 0;
+}
+
+.F-a{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
 }

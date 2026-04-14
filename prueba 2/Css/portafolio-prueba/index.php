@@ -94,7 +94,7 @@
             <div class="contenedores-section">
 
                 <div class="contenedor-section">
-                    <h3 class="subtitulo-section-3">silver</h3>
+                    <h3 class="subtitulo-section-3">Silver</h3>
                     <p class="precio">$0.00 <span>/hour</span></p>
                     <p class="parrafo-subtitulo-section-3">For most businesses that want to optimize web queries
                     </p>
@@ -112,8 +112,8 @@
                     <button class="button-s-3">ORDER NOW</button>
                 </div>
 
-                <div class="contenedor-section">
-                    <p class="F-amarillo"></p>
+                <div class="contenedor-section contenedor-section-3">
+                    <p class="F-amarillo">Most Popular</p>
                     <h3 class="subtitulo-section-3">Gold</h3>
                     <p class="precio">$50.00 <span>/hour</span></p>
                     <p class="parrafo-subtitulo-section-3">For most businesses that want to optimize web queries
@@ -156,13 +156,14 @@
 
 
         <section class="main-section main-section-4">
+            <div class="Primera-parte-section">
+                <h2 class="Titulo-section">recommendations</h2>
+                <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            </div>
 
-            <h2 class="Titulo-section">recommendations</h2>
-            <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            <div class="contenedores-section">
 
-            <div class="contenedores-section-4">
-
-                <div class="contenedor-section-4">
+                <div class="contenedor-section">
 
                     <div class="estrelas">
                         <img class="estrella" src="" alt="">
@@ -186,7 +187,7 @@
                 </div>
 
 
-                <div class="contenedor-section-4">
+                <div class="contenedor-section">
                     <div class="estrelas">
                         <img class="estrella" src="" alt="">
                         <img class="estrella" src="" alt="">
@@ -208,7 +209,7 @@
 
                 </div>
 
-                <div class="contenedor-section-4">
+                <div class="contenedor-section">
                     <div class="estrelas">
                         <img class="estrella" src="" alt="">
                         <img class="estrella" src="" alt="">
