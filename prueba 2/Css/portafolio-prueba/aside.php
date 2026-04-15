@@ -285,7 +285,7 @@
             </div>
                 
             
-            <p>Boostrap, Materialize</p>
+            <p class="p-date">Boostrap, Materialize</p>
 
         </div>
 
@@ -297,7 +297,7 @@
             </div>
                 
             
-            <p>Stylus, Sass, Less</p>
+            <p class="p-date">Stylus, Sass, Less</p>
 
         </div>
         
@@ -309,7 +309,7 @@
             </div>
                 
             
-            <p>Gulp, Webpack, Grunt</p>
+            <p class="p-date">Gulp, Webpack, Grunt</p>
 
         </div>
 
@@ -320,8 +320,8 @@
                 <img  class= "icono-opcion"src="img/iconos/opcion.png" alt="">
             </div>
                 
-            
-            <p>Git Knowledge</p>
+             
+            <p class="p-date">Git Knowledge</p>
 
         </div>
 
@@ -334,4 +334,3 @@
 </aside>
 </body>
 </html>
-

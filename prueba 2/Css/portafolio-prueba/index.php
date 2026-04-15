@@ -163,20 +163,20 @@
 
             <div class="contenedores-section">
 
-                <div class="contenedor-section">
+                <div class="contenedor-section contenedor-section-4">
 
                     <div class="estrelas">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
                     </div>
                     <h3 class="subtitulo-section-4">Great Quality!</h3>
-                    <p class="parrafo-subtitulo-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....</p>
+                    <p class="subtitulo-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....</p>
 
                     <div class="info-user-section-4">
-                        <img  class="img-user-section-4" src="" alt="">
+                        <img  class="img-user-section-4" src="img/personas/persona-1.jfif" alt="error">
 
                         <div class="nombre-cargo-section-4">
                             <h3 class="nombre-section-4">James Gouse</h3>
@@ -187,45 +187,45 @@
                 </div>
 
 
-                <div class="contenedor-section">
+                <div class="contenedor-section contenedor-section-4">
                     <div class="estrelas">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
                     </div>
                     <h3 class="subtitulo-section-4">Amazing work!</h3>
-                    <p class="parrafo-subtitulo-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....</p>
+                    <p class="subtitulo-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....</p>
 
                     <div class="info-user-section-4">
-                        <img  class="img-user-section-4" src="" alt="">
+                        <img  class="img-user-section-4" src="img/personas/persona-2.jfif" alt="error">
 
                         <div class="nombre-cargo-section-4">
-                            <h3 class="nombre-section-4">Tiana Philips</h3>
-                            <p class="cargo-section-4">Photographer</p>
+                            <h3 class="nombre-section-4">James Gouse</h3>
+                            <p class="cargo-section-4">Graphic Designer</p>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="contenedor-section">
+                <div class="contenedor-section contenedor-section-4">
                     <div class="estrelas">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
-                        <img class="estrella" src="" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
+                        <img class="estrella" src="../img/iconos/estrella.png" alt="">
                     </div>
                     <h3 class="subtitulo-section-4">Amazing work!</h3>
-                    <p class="parrafo-subtitulo-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....</p>
+                    <p class="subtitulo-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....</p>
 
                     <div class="info-user-section-4">
-                        <img  class="img-user-section-4" src="" alt="">
+                        <img  class="img-user-section-4" src="img/personas/persona-3.jfif" alt="error">
 
                         <div class="nombre-cargo-section-4">
-                            <h3 class="nombre-section-4">Tiana Philips</h3>
-                            <p class="cargo-section-4">Photographer</p>
+                            <h3 class="nombre-section-4">James Gouse</h3>
+                            <p class="cargo-section-4">Graphic Designer</p>
                         </div>
                     </div>
 
@@ -236,50 +236,52 @@
 
         <section class="main-section main-section-5">
 
-            <h2 class="Titulo-section">Education</h2>
-            <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
-
+            <div class="Primera-parte-section">
+                <h2 class="Titulo-section">Education</h2>
+                <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            </div>
             <div class="contenedores-section-5">
 
                 <div class="contenedor-section-5">
-                    <div>
+                    <div class= "contenedor-section-5-1">
                         <h3>University of Toronto</h3>
                         <div>
                             <p>Student</p>
-                            <p>Jan 1016 - Dec 2021</p>
+                            <p class="Fecha">Jan 1016 - Dec 2021</p>
                         </div>
                     </div>
-                    <div>
+                    <div class= "contenedor-section-5-2">
                         <h3 class="">Certificate of web training</h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
                     </div>
                     
                 </div>
-
+                <hr class="line">
                 <div class="contenedor-section-5">
-                    <div>
+                    <div class= "contenedor-section-5-1">
                         <h3>Programming Course</h3>
                         <div>
                             <p>Student</p>
-                            <p>Jan 1016 - Dec 2021</p>
+                            <p class="Fecha">Jan 1016 - Dec 2021</p>
                         </div>
                     </div>
-                    <div>
+                    <div class= "contenedor-section-5-2">
                         <h3 class="">Certificate of web training</h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
                     </div>
                     
                 </div>
 
+                <hr class="line">
                 <div class="contenedor-section-5">
-                    <div>
+                    <div class= "contenedor-section-5-1">
                         <h3>Web developer courses</h3>
                         <div>
                             <p>Student</p>
-                            <p>Jan 1016 - Dec 2021</p>
+                            <p class="Fecha">Jan 1016 - Dec 2021</p>
                         </div>
                     </div>
-                    <div>
+                    <div class= "contenedor-section-5-2">
                         <h3 class="">Certificate of web training</h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
                     </div>
@@ -289,52 +291,55 @@
 
         </section>
         
-        <section class="main-section main-section-6">
+        <section class="main-section main-section-5">
 
-            <h2 class="Titulo-section">Work History</h2>
-            <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            <div class="Primera-parte-section">
+                <h2 class="Titulo-section">Work History</h2>
+                <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
 
-            <div class="contenedores-section-6">
+            </div>
 
-                <div class="contenedor-section-6">
-                    <div>
+            <div class="contenedores-section-5">
+
+                <div class="contenedor-section-5">
+                    <div class="contenedor-section-5-1">
                         <h3>Lead Web Designer</h3>
                         <div>
                             <p>Student</p>
-                            <p>Jan 1016 - Dec 2021</p>
+                            <p class="Fecha">Jan 1016 - Dec 2021</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="contenedor-section-5-2">
                         <h3 class="">Certificate of web training</h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
                     </div>
                     
                 </div>
-
-                <div class="contenedor-section-6">
-                    <div>
+                <hr>
+                <div class="contenedor-section-5">
+                    <div class="contenedor-section-5-1">
                         <h3>Junior Web Designer</h3>
                         <div>
                             <p>Student</p>
-                            <p>Jan 1016 - Dec 2021</p>
+                            <p class="Fecha">Jan 1016 - Dec 2021</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="contenedor-section-5-2">
                         <h3 class="">Certificate of web training</h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
                     </div>
                     
                 </div>
-
-                <div class="contenedor-section-6">
-                    <div>
+                <hr>
+                <div class="contenedor-section-5">
+                    <div class = "contenedor-section-5-1">
                         <h3>Senior Web Designer</h3>
                         <div>
                             <p>Student</p>
-                            <p>Jan 1016 - Dec 2021</p>
+                            <p class="Fecha">Jan 1016 - Dec 2021</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="contenedor-section-5-2">
                         <h3 class="">Certificate of web training</h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
                     </div>
@@ -346,36 +351,40 @@
 
         <section class="main-section main-section-7">
 
-            <h2 class="Titulo-section">Portafolio</h2>
-            <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            <div class="Primera-parte-section">
+                <h2 class="Titulo-section">Portafolio</h2>
+                <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            </div>
 
             <ul>
-                <li>All categories</li>
+                <li class="li-color">All categories</li>
                 <li>UI Design</li>
                 <li>Web Templates</li>
                 <li>Logo</li>
                 <li>Branding</li>
             </ul>
+
             <div class="contenedores-section-7">
-                <img src="" alt=""> 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
+                <img src="img/portafolio/img-1.jpg" alt="error"> 
+                <img src="img/portafolio/img-2.jpg" alt="error"> 
+                <img src="img/portafolio/img-3.jpg" alt="error"> 
+                <img src="img/portafolio/img-4.jpg" alt="error"> 
+                <img src="img/portafolio/img-5.jpg" alt="error"> 
+                <img src="img/portafolio/img-6.jpg" alt="error"> 
+                <img src="img/portafolio/img-7.jpg" alt="error"> 
+                <img src="img/portafolio/img-8.jpg" alt="error"> 
+                <img src="img/portafolio/img-9.jpg" alt="error"> 
             </div>
 
         </section>
 
         <section class="main-section main-section-8">
 
-            <h2 class="Titulo-section">Blog</h2>
+            <div class="Primera-parte-section">
+                <h2 class="Titulo-section">Blog</h2>
 
-            <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
-
+                <p class="Descripcion-section">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+            </div>
             <div class="contenedores-section-8">
                 <div>
                     <img src="" alt="">

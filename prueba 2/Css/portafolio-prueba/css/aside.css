@@ -166,3 +166,7 @@
 #Download:hover{
     cursor: pointer;
 }
+
+.p-date{
+    max-width: 60%;
+}

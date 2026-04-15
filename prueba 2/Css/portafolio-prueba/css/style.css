@@ -111,7 +111,7 @@ header{
 
 
 
-ul{
+.contenedor-section ul{
     text-align: left;
     width: 90%;
     display: flex;
@@ -119,7 +119,7 @@ ul{
     gap: 15px;
 }
 
-li{
+.contenedor-section li{
     list-style: none;
     display: flex;
     justify-content: left;
@@ -182,3 +182,117 @@ li{
     color: white;
     border-radius: 50px;
 }
+
+.estrella{
+    width: 15px;
+    height: 15px;
+}
+
+.contenedor-section-4{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: start;
+}
+
+.subtitulo-section-4{
+    text-align: justify;
+}
+
+.img-user-section-4{
+    width: 30%;
+    height: 70%;
+    border-radius: 50%;
+}
+.info-user-section-4{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nombre-cargo-section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 60%;
+
+}
+
+.contenedores-section-5{
+    width: 100%;
+    background-color: white;
+    padding: 50px 30px;
+}
+
+.contenedor-section-5{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    margin-bottom: 40px;
+}
+
+.contenedor-section-5-1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.contenedor-section-5-1 div{
+    display: flex;
+    gap: 10px;
+}
+.contenedor-section-5-1 h3{
+    text-align: start;
+
+}
+.contenedor-section-5-2{
+    width: 60%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contenedor-section-5-2 p{
+    width: 80%;
+    
+}
+.Fecha{
+    background-color: black;
+    color: white;
+}
+
+.main-section-7 ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.main-section-7 ul li{
+    list-style: none;
+}
+.li-color{
+    color: red;
+}
+
+.contenedores-section-7{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 100px;
+}
+
+
+.contenedores-section-7 img{
+    width: 30%;
+    height: 200px;
+    
+    background-size: cover;
+    background-position: center;
+}
+
