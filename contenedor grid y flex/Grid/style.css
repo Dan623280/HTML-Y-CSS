@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 10% 80% 10%;
+    background-color: aqua;
+}
+header{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 100%;
+}
+aside{
+    background-color: red;
+}
+
+main{
+    background-color: bisque;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.section-1{
+    background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.section-2{
+    background-color: brown;
+}
+.section-3{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
