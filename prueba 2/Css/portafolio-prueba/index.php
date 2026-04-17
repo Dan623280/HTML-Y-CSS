@@ -418,22 +418,23 @@
                 <div>
                     <img src="img/portafolio/img-9.jpg" alt="">
                     <h3>How to make web tempates</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, recusandae repudiandae? Similique porro nostrum mollitia aliquam laudantium nobis quod perferendis. Itaque aliquid voluptates est quo eum esse deleniti non laudantium.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
                     <a href="">Learn more <span>></span></a>
                 </div>
 
                 <div>
                     <img src="img/portafolio/img-2.jpg" alt="">
-                    <h3>make Business card</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, recusandae repudiandae? Similique porro nostrum mollitia aliquam laudantium nobis quod perferendis. Itaque aliquid voluptates est quo eum esse deleniti non laudantium.</p>
+                    <h3>Make Business card</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
                     <a href="">Learn more <span>></span></a>
                 </div>
 
                 <div>
                     <img src="img/portafolio/img-3.jpg" alt="">
                     <h3>How to make Flyer Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, recusandae repudiandae? Similique porro nostrum mollitia aliquam laudantium nobis quod perferendis. Itaque aliquid voluptates est quo eum esse deleniti non laudantium.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
                     <a href="">Learn more <span>></span></a>
+
                 </div>
             </div>
 
@@ -441,24 +442,24 @@
 
         <section class="main-section-9">
 
-            <div>
+            <div class="div-formulario">
 
                 <h2>Leave us your info</h2>
                 <form action="">
 
-                    <label for=""></label>
-                    <input type="text">
+                    <label for="">Your Full Name ( Required)</label>
+                    <input require type="text">
 
-                    <label for=""></label>
-                    <input type="text">
+                    <label for="">Your Email ( Required)</label>
+                    <input require type="text">
 
-                    <label for=""></label>
-                    <input type="text">
+                    <label for="">Subject</label>
+                    <input  require type="text">
 
-                    <label for=""></label>
-                    <textarea name="" id=""></textarea>
+                    <label for="">Your Message</label>
+                    <textarea require name="" id=""></textarea>
 
-                    <input type="submit" value="send message">
+                    <button class="button-form">Send Message</button>
                 </form>
 
             </div>
@@ -466,79 +467,79 @@
             <div>
                 <h2>Contact information</h2>
                 
-                <div>
-                    <img src="" alt="">
+                <div class="contenedor-section-9">
 
-                    <div>
+                    <img src="img/iconos/ciudad.png" alt="" class="imagen-section-9">
+                    <div class="letra-section-9">
 
                         <p>Country:</p>
-                        <p>Bangladesh</p>
+                        <p class="section-9-right">Bangladesh</p>
 
                     </div>
 
-                    <div>
+                    <div class="letra-section-9">
 
                         <p>City:</p>
-                        <p>Dhaka</p>
+                        <p class="section-9-right">Dhaka</p>
                         
                     </div>
 
-                    <div>
+                    <div class="letra-section-9">
 
                         <p>Streat:</p>
-                        <p>35 vhatara, Badda</p>
+                        <p class="section-9-right">35 vhatara, Badda</p>
                         
                     </div>
 
                 </div>
 
-                <div>
-                    <img src="" alt="">
+                <div class="contenedor-section-9">
+                    <img class="imagen-section-9" src="img/iconos/correo-electronico.png" alt="">
 
-                    <div>
+                    <div class="letra-section-9">
 
                         <p>Email:</p>
-                        <p>youremail@gmail.com</p>
+                        <p class="section-9-right">youremail@gmail.com</p>
 
                     </div>
 
-                    <div>
+                    <div class="letra-section-9">
 
                         <p>Skype:</p>
-                        <p>@yourusername</p>
+                        <p class="section-9-right">@yourusername</p>
                         
                     </div>
 
-                    <div>
+                    <div class="letra-section-9">
 
                         <p>Telegram:</p>
-                        <p>@yourusername</p>
+                        <p class="section-9-right">@yourusername</p>
                         
                     </div>
 
                 </div>
 
-                <div>
-                    <img src="" alt="">
+                <div class="contenedor-section-9"s>
+                    <img class="imagen-section-9" src="img/iconos/call-center-service.png" alt="">
 
-                    <div>
+                    <div class="letra-section-9">
 
                         <p>Support services:</p>
-                        <p>15369</p>
+                        <p class="section-9-right">15369</p>
 
                     </div>
 
-                    <div>
+                    <div class="letra-section-9">
 
                         <p>Office:</p>
-                        <p>+58 (021)356 587 235</p>
+                        <p class="section-9-right">+58 (021)356 587 235</p>
                         
                     </div>
 
-                    <div>
+                    <div class="letra-section-9">
 
                         <p>Personal:</p>
-                        <p>+58 (021)356 587 235</p>
+                        <p class="section-9-right">+58 (021)356 587 235</p>
                         
                     </div>
 
@@ -547,20 +548,21 @@
 
         </section>
 
-        <section class="main-section main-section-10">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125335.0019778219!2d-74.90037688026703!3d10.984584016217736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d44d12ae605%3A0x2633844581b917b2!2sBarranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1776117644811!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <section class="main-section-10">
 
             <div class="contenedores-section-10">
 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
-                <img src="" alt=""> 
+                <img src="img/iconos/stiker-1.png" alt=""> 
+                <img src="img/iconos/stiker-2.png" alt=""> 
+                <img src="img/iconos/stiker-3.png" alt=""> 
+                <img src="img/iconos/stiker-4.png" alt=""> 
         
             </div>
 
         </section>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125335.0019778219!2d-74.90037688026703!3d10.984584016217736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d44d12ae605%3A0x2633844581b917b2!2sBarranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1776117644811!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <section class="footer">
             <p>2021 All Rights Reserved.Ojjomedia</p>
         </section>
