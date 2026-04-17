@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -269,30 +270,90 @@ header{
     display: flex;
     width: 50%;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .main-section-7 ul li{
     list-style: none;
 }
 .li-color{
-    color: red;
+    font-weight: 900;
+
 }
 
 .contenedores-section-7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 30px 100px;
-}
-
-
-.contenedores-section-7 img{
-    width: 30%;
-    height: 200px;
+    gap: 10px
     
-    background-size: cover;
-    background-position: center;
 }
 
+
+.contenedores-section-7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contenedores-section-7 a{
+    cursor: default;
+}
+
+.mascota{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    
+}
+
+
+
+a p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: center;  
+}
+
+a p:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.contenedores-section-8{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.contenedores-section-8 div{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: start;
+    padding: 10px;
+}
+
+.contenedores-section-8 div img{
+    width: 100%;
+    height: 350px;
+    margin: 20px 0;
+    
+}
+.contenedores-section-8 div p{
+    margin: 20px 0;
+}

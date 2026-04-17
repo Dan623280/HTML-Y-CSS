@@ -365,15 +365,44 @@
             </ul>
 
             <div class="contenedores-section-7">
-                <img src="img/portafolio/img-1.jpg" alt="error"> 
-                <img src="img/portafolio/img-2.jpg" alt="error"> 
-                <img src="img/portafolio/img-3.jpg" alt="error"> 
-                <img src="img/portafolio/img-4.jpg" alt="error"> 
-                <img src="img/portafolio/img-5.jpg" alt="error"> 
-                <img src="img/portafolio/img-6.jpg" alt="error"> 
-                <img src="img/portafolio/img-7.jpg" alt="error"> 
-                <img src="img/portafolio/img-8.jpg" alt="error"> 
-                <img src="img/portafolio/img-9.jpg" alt="error"> 
+
+                <a href="">
+                    <img src="img/portafolio/img-1.jpg" alt="error"> 
+                </a>
+
+                <a href="">
+                    <img src="img/portafolio/img-2.jpg" alt="error"> 
+                </a>
+
+                <a href="mascotas.html" class="mascota">
+                    <p>+</p>
+                    <img src="img _mascotas/mascotas/perro_2.webp" alt="error"> 
+                </a>
+
+                <a href="">
+                <img src="img/portafolio/img-4.jpg" alt="error">
+                </a>
+
+                <a href="">
+                <img src="img/portafolio/img-5.jpg" alt="error">
+                </a>
+
+                <a href="">
+                <img src="img/portafolio/img-6.jpg" alt="error">
+                </a>
+
+                <a href="">
+                <img src="img/portafolio/img-7.jpg" alt="error">
+                </a>
+
+                <a href="">
+                <img src="img/portafolio/img-8.jpg" alt="error">
+                </a>
+
+                <a href="">
+                <img src="img/portafolio/img-9.jpg" alt="error">
+                </a>
+
             </div>
 
         </section>
@@ -387,21 +416,21 @@
             </div>
             <div class="contenedores-section-8">
                 <div>
-                    <img src="" alt="">
+                    <img src="img/portafolio/img-9.jpg" alt="">
                     <h3>How to make web tempates</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, recusandae repudiandae? Similique porro nostrum mollitia aliquam laudantium nobis quod perferendis. Itaque aliquid voluptates est quo eum esse deleniti non laudantium.</p>
                     <a href="">Learn more <span>></span></a>
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="img/portafolio/img-2.jpg" alt="">
                     <h3>make Business card</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, recusandae repudiandae? Similique porro nostrum mollitia aliquam laudantium nobis quod perferendis. Itaque aliquid voluptates est quo eum esse deleniti non laudantium.</p>
                     <a href="">Learn more <span>></span></a>
                 </div>
 
                 <div>
-                    <img src="" alt="">
+                    <img src="img/portafolio/img-3.jpg" alt="">
                     <h3>How to make Flyer Design</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, recusandae repudiandae? Similique porro nostrum mollitia aliquam laudantium nobis quod perferendis. Itaque aliquid voluptates est quo eum esse deleniti non laudantium.</p>
                     <a href="">Learn more <span>></span></a>
