@@ -1,0 +1,220 @@
+
+/*aside*/
+
+
+
+@media (min-width: 1501px){
+    #aside{
+    padding: 30px 30px;
+    }
+}
+
+@media (max-width: 1500px){
+    #aside{
+    background-color: white;
+    width: 17%;
+    padding: 30px 40px;
+    position: sticky;
+    top: 0;
+    max-height: calc(100vh);
+    overflow-y: auto;
+    }
+}
+
+@media (max-width: 1300px){
+    #aside{
+    padding: 30px 20px;
+    }
+}
+
+
+@media (max-width: 1200px){
+    #aside{
+    padding: 30px 10px;
+    }
+}
+
+@media (max-width: 1000px){
+
+    #aside{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px 40px;
+    position: absolute;
+    top: 0;
+    height: 30%;
+    position: relative;
+    overflow: auto;
+    }
+    .aside-section{
+        position: absolute;
+       
+    }
+}
+
+
+/********************/
+/* Primera seccion */
+/******************/
+
+/* contenedor imagen principal*/
+.div-imagen{
+    width: 100%;
+    height: 150px;
+    overflow: hidden; /* Evita desbordamientos */
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px){
+    .div-imagen{
+        width: 50%;
+        height: 50%;
+    }
+}
+/* imagen que esta adentro del contenedor */
+
+.imagen-principal{
+    width: 100%;
+    height: 100%;
+}
+
+/*Nombre del Desarrollador*/
+
+#nombre-aside{
+ 
+    text-align: center;
+    margin: 8% auto;
+    width: 100%;
+}
+
+/*Descripcion del Desarrollador*/
+#descrip-aside{
+    text-align: center;
+    margin: 8% auto;
+    width: 100%;
+}
+
+/*Iconos de redes sociales*/
+
+/*contenedor de iconos*/
+.iconos{
+    display: flex;
+    width: 100%;
+    margin: 8% auto;
+    justify-content: center;  /* centra horizontal */
+    align-items: center;      /* centra vertical */
+    gap: 11%;   
+}
+
+/*Enlace de imagenes*/
+.link-icon{
+    overflow: hidden; /* Evita desbordamientos */
+    display: flex;
+    border-radius: 50%;
+}
+
+/*imagenes*/
+.icon{
+    width: 100%;
+    height: 100%;
+}
+
+/***************************/
+
+/*hr*/
+.linea-aside{
+    width: 100%;
+    margin: 8% auto;
+    
+}
+
+/***************************/
+
+
+
+.Lenguages{
+    margin: 0 0;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.date-1-individual{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.resalto{
+    color: white;
+    background-color: black;
+}
+
+.barra{
+    width: 100%;
+    height: 5px;
+    border: black solid 1px;
+    border-radius: 100px;
+}
+
+.relleno{
+    height: 100%;
+    background-color: black;
+}
+
+
+
+.relleno-2{
+    width: 100%;
+}
+
+.relleno-3{
+    width: 10%;
+}
+
+.relleno-4{
+    width: 90%;
+}
+
+.relleno-5, .relleno-6{
+    width: 30%;
+}
+
+.relleno-7{
+    width: 75%;
+}
+.relleno-8{
+    width: 85%;
+}
+.div-icono-opcion{
+    width: 5%;
+    height: 5%;
+    box-sizing: border-box;
+}
+.icono-opcion{
+    width: 100%;
+    height: 100%;
+}
+
+#Download{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+    margin: 8% 0;
+}
+
+#Download:hover{
+    cursor: pointer;
+}
+
+.p-date{
+    max-width: 60%;
+}
