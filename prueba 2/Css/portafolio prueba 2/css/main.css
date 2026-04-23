@@ -1,0 +1,153 @@
+@import "main/section-1.css";
+@import "main/section-2-5.css";
+@import "main/section-7.css";
+@import "main/section-8-9.css";
+@import "main/section-10.css";
+
+/* Reset de estilos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;/* Agrega una transición suave a todos los elementos */
+}
+
+/* Estilos generales */
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1000px){   
+    body{
+        flex-direction: column;
+    }
+}
+
+/* main */
+main{
+    width: 80%;
+    padding: 0 3%;
+    margin-right: 50px;
+}
+
+@media (max-width: 1000px){
+    main{
+        width: 90%;
+        padding: 0 3%;
+        margin-right: 0px;
+        margin-top: 1%;
+    }
+}
+@media (max-width: 500px){
+    main{
+        width: 85%;
+        padding: 0 3%;
+    }
+}
+
+/*Globales*/
+
+.main-section{
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Titulo-section{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.Descripcion-section{
+    margin-bottom: 15%;
+}
+
+
+.Primera-parte-section{
+    width: 40%;
+}
+
+.contenedores-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 700px){
+
+    .Primera-parte-section{
+        width: 80%;
+    }
+    .contenedores-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    }
+}
+
+.contenedor-section {
+    background-color: white;
+    width: 100%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.contenedor-section ul{
+    text-align: left;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contenedor-section li{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+a p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: center;  
+}
+
+a p:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* footer */
+.footer{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+

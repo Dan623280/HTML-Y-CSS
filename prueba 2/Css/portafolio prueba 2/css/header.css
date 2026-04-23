@@ -1,14 +1,13 @@
 header{
     background-color: white;
-    width: 50px;
     overflow: hidden;
+    width: 50px;
     display: flex;
     flex-direction: column;
     position: fixed;
     top: 0;
     right: 0;
     height: 100%;
-    
 }
 
 #nav{

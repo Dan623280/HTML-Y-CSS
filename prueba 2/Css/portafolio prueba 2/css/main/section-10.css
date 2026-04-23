@@ -1,0 +1,60 @@
+
+/*informacion main marcas*/
+/* section-10 */
+.main-section-10{
+    width: 100%;
+    margin: 10% 0;
+}
+
+.contenedores-section-10{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow: auto;
+
+}
+
+.contenedores-section-10 img{
+    width: 100px;
+    height: 100px;
+}
+
+/* section-10  formulario*/
+form{
+    margin-top: 20px;
+    background-color: white;
+    height: 90%;
+
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.div-formulario form label{
+    margin-top: 20px;
+}
+
+.div-formulario form input{
+    height: 40px;
+    background-color: #E5E5E5;
+    border: 0 solid black;
+}
+
+.div-formulario form textarea{
+    background-color: #E5E5E5;
+    height: 140px;
+}
+
+.button-form{
+    background-color: black;
+    color:white;
+    margin-top: auto;
+    width: 30%;
+    height: 30px;
+}
+
+

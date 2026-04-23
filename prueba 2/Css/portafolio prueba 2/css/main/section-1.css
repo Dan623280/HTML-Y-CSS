@@ -1,0 +1,68 @@
+/* section-1 */
+
+/*information main persona*/
+
+.main-section-1{
+    display: flex;
+    background-color: white;
+    margin-bottom: 10%;
+    
+}
+
+.d-principalsection{
+    width: 50%;
+    margin: auto;
+}
+
+.d-principalsection p, h1{
+    margin-bottom: 20px;
+}
+
+
+.d-principalsection h1{
+    font-size: 150%;
+}
+
+.d-principalsection h1 span{
+    font-weight: bold;
+}
+
+.d-principalsection button{
+    width: 200px;
+    padding: 5px 0;
+    background-color: black;
+    color: white;
+}
+
+
+.imagen-principal-section{
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+
+@media (max-width: 500px){
+    .imagen-principal-section{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    }
+}
+
+@media (max-width: 700px){
+    .main-section-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30% 70%;
+    }
+    .d-principalsection{
+        width: 80%;
+        grid-row: 2/4;
+    }
+    .imagen-principal-section{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        height: 100%;
+    }
+}
