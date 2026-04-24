@@ -118,28 +118,6 @@ main{
 
 }
 
-a p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center; /* centro horizontal */
-    align-items: center;  
-}
-
-a p:hover{
-    cursor: pointer;
-    opacity: 0.5;
-}
-
 /* footer */
 .footer{
     background-color: white;

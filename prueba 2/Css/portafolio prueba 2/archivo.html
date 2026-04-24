@@ -1,47 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Menú Desplegable</title>
-  <style>
-    .menu-contenido {
-      display: none;
-      background: #eee;
-      padding: 10px;
-      width: 150px;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+nav{
+    background:black;
+    padding:15px;
+}
+
+/* BOTON */
+#btnMenu{
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+    display:block;
+}
+
+/* MENU */
+ul{
+    list-style:none;
+    padding:0;
+    margin:10px 0 0 0;
+    display:none;
+    flex-direction:column;
+    gap:10px;
+}
+
+ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* CLASE QUE MUESTRA MENU */
+ul.activo{
+    display:flex;
+}
+
+/* PANTALLA GRANDE */
+@media (min-width: 768px){
+
+    #btnMenu{
+        display:none; /* ocultar botón */
     }
 
-    .menu-btn {
-      padding: 10px;
-      background: #3498db;
-      color: white;
-      border: none;
-      cursor: pointer;
+    ul{
+        display:flex !important; /* mostrar menú siempre */
+        flex-direction:row;
+        gap:20px;
+        margin:0;
     }
-  </style>
+}
+</style>
 </head>
 <body>
 
-<button class="menu-btn" onclick="mostrarMenu()">Menú</button>
+<nav>
+    <div id="btnMenu">☰</div>
 
-<div id="menu" class="menu-contenido">
-  <p>Inicio</p>
-  <p>Servicios</p>
-  <p>Contacto</p>
-</div>
+    <ul id="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</nav>
 
 <script>
-  function mostrarMenu() {
-    
-    let menu = document.getElementById("menu");
+let boton = document.getElementById("btnMenu");
+let menu = document.getElementById("menu");
 
-    if (menu.style.display === "block") {
-      menu.style.display = "none";
-    } else {
-      menu.style.display = "block";
-    }
-  }
-</script> 
+boton.addEventListener("click", function(){
+    menu.classList.toggle("activo");
+});
+</script>
 
 </body>
 </html>

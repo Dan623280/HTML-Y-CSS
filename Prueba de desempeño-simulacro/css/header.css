@@ -1,0 +1,41 @@
+
+/*Header*/
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+nav{
+    width: 70%;
+    
+}
+header img{
+    width: 4%;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+}
+
+header ul{
+    gap: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header ul li{
+    list-style-type: none;
+    font-size: 12px;
+    display: flex;
+    height: auto;
+    color: white;
+}
+
+header ul li:hover{
+    color: yellow;
+}
